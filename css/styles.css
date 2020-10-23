@@ -69,3 +69,13 @@ footer {
     background-color: #27385E;
     border: solid grey 4px;
 }
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: #608CEB;
+}
