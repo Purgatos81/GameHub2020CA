@@ -60,6 +60,12 @@ ul {
     text-decoration: none;
 }
 
-#search-bar {
+#search {
+    
+}
 
+footer {
+    font-family: verdana;
+    background-color: #27385E;
+    border: solid grey 4px;
 }
