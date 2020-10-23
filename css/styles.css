@@ -1,3 +1,7 @@
+body {
+    background: linear-gradient(to bottom,  #1c2945 ,#06080e);
+}
+
 header {
     font-family: verdana;
     background-color: #27385E;
