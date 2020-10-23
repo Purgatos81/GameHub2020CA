@@ -1,0 +1,61 @@
+header {
+    font-family: verdana;
+    background-color: #27385E;
+    border: solid grey 4px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: -25px;
+    margin-right: 18px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-menu {
+    display: flex;
+}
+
+.account-menu {
+    display: flex;   
+}
+
+.nav-button {
+    color: #1C2945;
+    background-color: #608CEB;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.nav-button:hover {
+    text-decoration: underline;
+}
+
+.login-button {
+    background-color: #608CEB;
+    color: white;
+    padding: 20px 5px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.user {
+    font-size: 25px;
+    margin-right: 5px;
+    color: #608CEB;
+    text-decoration: none;
+}
+
+.cart {
+    font-size: 25px;
+    margin-right: 8px;
+    color: #608CEB;
+    text-decoration: none;
+}
