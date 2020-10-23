@@ -45,7 +45,7 @@ ul {
 }
 
 .nav-search {
-    display: flex; flex-flow: row; justify-content: center; align-content: space-between;
+    display: flex; flex-flow: row; justify-content: center; align-items: center;
     color: #1C2945;
     background-color: #608CEB;
     text-decoration: none;
@@ -91,4 +91,8 @@ footer {
 .footer-links {
     text-decoration: none;
     color: #608CEB;
+}
+
+.footer-links:hover {
+    text-decoration: underline;
 }
