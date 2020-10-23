@@ -22,6 +22,9 @@ ul {
 
 .top-menu {
     display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .account-menu {
@@ -39,6 +42,16 @@ ul {
 
 .nav-button:hover {
     text-decoration: underline;
+}
+
+.nav-search {
+    display: flex; flex-flow: row; justify-content: center; align-content: space-between;
+    color: #1C2945;
+    background-color: #608CEB;
+    text-decoration: none;
+    text-align: center;
+    padding: 9px;
+    border: 1px solid gray;
 }
 
 .login-button {
