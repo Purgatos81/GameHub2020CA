@@ -107,7 +107,5 @@ img {
 }
 
 .main-game {
-    margin: 5%;
-    width: 90%;
-    background-color: white;
+    margin-top: 16px;
 }
