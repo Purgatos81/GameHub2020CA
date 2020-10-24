@@ -109,3 +109,18 @@ img {
 .main-game {
     margin-top: 16px;
 }
+
+.games-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-page-fig {
+    width: 20%;
+    background-color: white;
+}
+
+.fig-text {
+    color: teal;
+    text-align: center;
+}
