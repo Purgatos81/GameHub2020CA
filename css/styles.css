@@ -5,7 +5,9 @@ body {
 header {
     font-family: verdana;
     background-color: #27385E;
-    border: solid grey 4px;
+    margin: -8px;
+    padding: 5px;
+    border: solid steelblue 1px;
 }
 
 ul {
@@ -80,7 +82,9 @@ ul {
 footer {
     font-family: verdana;
     background-color: #27385E;
-    border: solid grey 4px;
+    border: solid steelblue 1px;
+    padding: 10px;
+    margin: -7px;
 }
 
 .footer-nav {
