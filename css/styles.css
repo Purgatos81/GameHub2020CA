@@ -117,10 +117,15 @@ img {
 
 .main-page-fig {
     width: 20%;
-    background-color: white;
+    background-color: #608CEB;
 }
 
 .fig-text {
-    color: teal;
+    color: #27385E;
     text-align: center;
+}
+
+.sell-button {
+    display: flex;
+    justify-content: center;
 }
