@@ -129,3 +129,16 @@ img {
     display: flex;
     justify-content: center;
 }
+
+/*styles to new here*/
+
+.search-tag {
+    display: inline-block;
+    background-color: #608CEB;
+    padding: 5px;
+}
+
+.new-search {
+    display: flex;
+    justify-content: space-around;
+}
