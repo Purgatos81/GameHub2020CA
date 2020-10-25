@@ -116,8 +116,8 @@ img {
 }
 
 .main-page-fig {
-    width: 20%;
     background-color: #608CEB;
+    width: 22%;
 }
 
 .fig-text {
@@ -138,7 +138,11 @@ img {
     padding: 5px;
 }
 
+.new-page-fig {
+    background-color: #608CEB;
+}
+
 .new-search {
-    display: flex;
-    justify-content: space-around;
+    display:  grid;
+    grid-template-columns: 33% 33% 33%;
 }
