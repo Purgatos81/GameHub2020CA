@@ -182,3 +182,19 @@ form {
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
+/*cart styles*/
+
+.shopping-h1 {
+    color: #608CEB;
+    display: flex;
+    justify-content: center;
+}
+
+.summary-box {
+    display: grid;
+    display: inline-block;
+    background-color: #27385E;
+    max-width: auto;
+    grid-template-columns: 20 20%;
+}
