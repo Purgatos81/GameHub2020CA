@@ -20,6 +20,9 @@ ul {
     align-items: center;
 }
 
+.hamburger-label {
+    color: #608CEB;
+}
 
 .account-menu {
     display: flex;   
