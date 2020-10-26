@@ -20,39 +20,16 @@ ul {
     align-items: center;
 }
 
-.top-menu {
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    align-items: center;
-}
 
 .account-menu {
     display: flex;   
 }
 
-.nav-button {
-    color: #1C2945;
-    background-color: #608CEB;
-    text-decoration: none;
-    text-align: center;
-    padding: 10px;
-    border: 1px solid gray;
-}
-
-.nav-button:hover {
-    text-decoration: underline;
-}
-
-.nav-search {
-    display: flex; flex-flow: row; justify-content: center; align-items: center;
-    color: #1C2945;
-    background-color: #608CEB;
-    text-decoration: none;
-    text-align: center;
-    padding: 9px;
-    border: 1px solid gray;
-}
+    
+#hamburger-menu {
+    float: right;
+    display: none;
+    }
 
 .login-button {
     background-color: #608CEB;
@@ -128,16 +105,6 @@ img {
     justify-content: center;
 }
 
-.hamburger-label {
-    display: none;
-}
-
-#hamburger-menu {
-    float: right;
-    display: none;
-}
-
-
 /*styles to catalogue here*/
 
 .search-tag {
@@ -207,11 +174,43 @@ form {
     grid-template-columns: 20 20%;
 }
 
-/*media querries here*/
+/*media querries here, colours are temporary to spot changes. Change back later*/
 
 @media only screen and (min-width:1200px) {
     body {
         background: linear-gradient(to bottom,  #1c2945 ,#06080e);
+    }
+    .hamburger-label {
+        display: none;
+    }
+    
+    .top-menu {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-button {
+        color: #1C2945;
+        background-color: #608CEB;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px;
+        border: 1px solid gray;
+    }
+    
+    .nav-button:hover {
+        text-decoration: underline;
+    }
+    
+    .nav-search {
+        display: flex; flex-flow: row; justify-content: center; align-items: center;
+        color: #1C2945;
+        background-color: #608CEB;
+        text-decoration: none;
+        text-align: center;
+        padding: 9px;
+        border: 1px solid gray;
     }
     }
 
@@ -219,10 +218,18 @@ form {
     body {
         background-color: aqua;
     }
+    
+    #search {
+        display: none;
+    }
     }
 
 @media only screen and (min-width:480px) and (max-width:799px) {
-body {
-    background-color: white;
-}
-}
+    body {
+        background-color: white;
+    }
+
+    #search {
+        display: none;
+    }
+    }
