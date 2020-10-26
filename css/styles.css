@@ -1,6 +1,4 @@
-body {
-    background: linear-gradient(to bottom,  #1c2945 ,#06080e);
-}
+
 
 header {
     font-family: verdana;
@@ -130,6 +128,16 @@ img {
     justify-content: center;
 }
 
+.hamburger-label {
+    display: none;
+}
+
+#hamburger-menu {
+    float: right;
+    display: none;
+}
+
+
 /*styles to catalogue here*/
 
 .search-tag {
@@ -197,4 +205,24 @@ form {
     background-color: #27385E;
     max-width: auto;
     grid-template-columns: 20 20%;
+}
+
+/*media querries here*/
+
+@media only screen and (min-width:1200px) {
+    body {
+        background: linear-gradient(to bottom,  #1c2945 ,#06080e);
+    }
+    }
+
+@media only screen and (min-width:800px) and (max-width:1199px) {
+    body {
+        background-color: aqua;
+    }
+    }
+
+@media only screen and (min-width:480px) and (max-width:799px) {
+body {
+    background-color: white;
+}
 }
