@@ -130,7 +130,7 @@ img {
     justify-content: center;
 }
 
-/*styles to new here*/
+/*styles to catalogue here*/
 
 .search-tag {
     display: inline-block;
@@ -145,4 +145,20 @@ img {
 .new-search {
     display:  grid;
     grid-template-columns: 33% 33% 33%;
+}
+
+/*styles to catalogue*/
+
+.header-one-catalogue {
+    display: flex;
+    justify-content: center;
+    color: #608CEB;
+}
+
+/*styles to about*/
+
+.about-box {
+    display: grid;
+    color: #608CEB;
+
 }
