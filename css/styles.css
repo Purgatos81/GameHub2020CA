@@ -88,6 +88,18 @@ img {
     margin-top: 16px;
 }
 
+.main-game-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.main-buy-button {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
 .games-container {
     display: flex;
     justify-content: space-between;
