@@ -225,6 +225,15 @@ form {
     #search {
         display: none;
     }
+
+    .top-menu {
+        display: none;
+    }
+
+    #hamburger-menu:checked ~ .top-menu {
+        display: block;
+    }
+
     }
 
 @media only screen and (min-width:480px) and (max-width:799px) {
@@ -235,4 +244,13 @@ form {
     #search {
         display: none;
     }
+    
+    .top-menu {
+        display: none;
+    }
+
+    #hamburger-menu:checked ~ .top-menu {
+        display: block;
+    }
+
     }
