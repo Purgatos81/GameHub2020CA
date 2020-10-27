@@ -189,6 +189,22 @@ form {
     grid-template-columns: 20 20%;
 }
 
+/*styles to game page here*/
+
+.game-h1 {
+    color: white;
+}
+
+.game-figs {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#game-head {
+    grid-column: 1/4;
+
+}
+
 /*media querries here, colours are temporary to spot changes. Change back later*/
 
 @media only screen and (min-width:1200px) {
