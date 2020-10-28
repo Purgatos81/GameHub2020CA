@@ -137,8 +137,6 @@ img {
     grid-template-columns: 33% 33% 33%;
 }
 
-/*styles to catalogue*/
-
 .header-one-catalogue {
     display: flex;
     justify-content: center;
@@ -393,6 +391,40 @@ img {
     color: white;
     grid-column: 1/5;
     grid-row: 4/5;
+}
+
+/*styles to about here*/
+
+.about-box {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    margin-bottom: 50px;
+}
+
+.about-section {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.about-article {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+.about-aside {
+    grid-column: 4/5;
+    grid-row: 1/3;
+    text-align: left;
+    margin-top: 20px;
+    margin-right: 20px;
 }
 
 /*media querries here, colours are temporary to spot changes. Change back later*/
