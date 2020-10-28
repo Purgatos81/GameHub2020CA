@@ -155,7 +155,7 @@ img {
 
 /* styles to login*/
 
-form {
+.form-frame {
     max-width: fit-content;
     margin: 0 auto;
     background: black;
@@ -171,6 +171,46 @@ form {
     padding: 50px;
     margin-top: 100px;
     margin-bottom: 100px;
+}
+
+/*account styles*/
+
+.account-form {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto auto auto auto;
+    color: white;
+}
+
+.account-div1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.account-div2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.account-div3 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.account-div4 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.account-div5 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.account-div6 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.account-div7 {
+    grid-column: 2/3;
+    grid-row: 4/5;
 }
 
 /*cart styles*/
