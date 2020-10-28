@@ -175,11 +175,20 @@ img {
 
 /*account styles*/
 
+.h1-account {
+    text-align: center;
+    color: white;
+}
+
 .account-form {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: auto auto auto auto;
     color: white;
+    max-width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10px;
 }
 
 .account-div1 {
@@ -211,6 +220,24 @@ img {
 .account-div7 {
     grid-column: 2/3;
     grid-row: 4/5;
+}
+
+
+.owned-item {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    background-color: #27385E;
+    max-width: 70%;
+    margin: 30px 15% 30px 15%;
+}
+
+.sell-button {
+    color: #608CEB;
+    grid-column: 4/5;
+    grid-row: 5/6;
+    text-align: end;
+    padding-right: 20px;
 }
 
 /*cart styles*/
