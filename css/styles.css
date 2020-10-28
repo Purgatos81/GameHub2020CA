@@ -417,6 +417,7 @@ img {
     margin-left: 20%;
     margin-right: 20%;
     text-align: center;
+    border: solid steelblue 1px;
 }
 
 .about-aside {
@@ -425,6 +426,8 @@ img {
     text-align: left;
     margin-top: 20px;
     margin-right: 20px;
+    border: solid steelblue 1px;
+    padding: 5px;
 }
 
 /*media querries here, colours are temporary to spot changes. Change back later*/
