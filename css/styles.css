@@ -112,12 +112,15 @@ img {
 
 .games-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    margin-left: -40px;
+    margin-right: -40px;
 }
 
 .main-page-fig {
     background-color: #608CEB;
-    width: 22%;
+    width: 20%;
 }
 
 .fig-text {
@@ -131,12 +134,11 @@ img {
 }
 
 .game-h2 {
-    color: #1C2945
+    color: #1C2945;
 }
 
 .game-p-ind {
     color: white;
-    text-decoration: none;
 }
 
 /*styles to catalogue here*/
