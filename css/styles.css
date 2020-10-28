@@ -183,10 +183,39 @@ form {
 
 .summary-box {
     display: grid;
-    display: inline-block;
+    align-self: center;
     background-color: #27385E;
-    max-width: auto;
-    grid-template-columns: 20 20%;
+    max-width: 50%;
+    margin: 0% 25% 20px 25%;
+    grid-template-columns: 25% 25% 25% 25%;
+    
+}
+
+.total-h2 {
+    grid-column: 1/2;
+    color: #608CEB;
+    padding-left: 25px;
+}
+
+.sum-h2 {
+    color: khaki;
+    grid-column: 4/5;
+    text-align: end;
+    padding-right: 25px;
+}
+
+.cont-shop {
+    grid-column: 1/2;
+    color: #608CEB;
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+
+.conf-shop {
+    color: khaki;
+    grid-column: 4/5;
+    text-align: end;
+    padding-right: 25px;
 }
 
 /*styles to game page here*/
