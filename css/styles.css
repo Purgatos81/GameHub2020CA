@@ -79,6 +79,8 @@ footer {
     text-decoration: underline;
 }
 
+/*style to index*/
+
 img {
     max-width: 100%;
     height: auto;
@@ -96,8 +98,16 @@ img {
 
 .main-buy-button {
     position: absolute;
-    bottom: 8px;
-    right: 16px;
+    bottom: 40px;
+    right: 20px;
+}
+
+.buy-button-main {
+    color: white;
+    text-decoration: none;
+    background-color: #608CEB;
+    padding: 20px;
+    border-radius: 50px;
 }
 
 .games-container {
@@ -118,6 +128,15 @@ img {
 .sell-button {
     display: flex;
     justify-content: center;
+}
+
+.game-h2 {
+    color: #1C2945
+}
+
+.game-p-ind {
+    color: white;
+    text-decoration: none;
 }
 
 /*styles to catalogue here*/
