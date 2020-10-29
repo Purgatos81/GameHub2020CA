@@ -574,7 +574,7 @@ img {
 
     }
 
-@media only screen and (min-width:480px) and (max-width:599px) {
+@media only screen and (min-width:360px) and (max-width:599px) {
     body {
         background: linear-gradient(to bottom,  #1c2945 ,#06080e);
     }
