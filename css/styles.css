@@ -529,6 +529,8 @@ img {
         grid-template-columns: auto auto;
     }
     
+    /*Basket styles*/
+
     .basket-item {
         display: grid;
         grid-template-columns: 50% 50%;
@@ -572,6 +574,29 @@ img {
         text-align: end;
         padding-right: 20px;
         padding-top: 20px;
+    }
+
+    /*Account styles*/
+
+    .owned-item {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 25% 25% 20% 10% 10%;
+        background-color: #27385E;
+        max-width: 70%;
+        margin: 30px 15% 30px 15%;
+    }
+    
+    .sell-button {
+        display: flex;
+        color: #608CEB;
+        background-color: white;
+        grid-column: 2/3;
+        grid-row: 5/6;
+        border-radius: 50px;
+        margin: 0px 60px;
+        align-items: center;
+        padding-left: 15px;
     }
 
     }
@@ -667,6 +692,27 @@ img {
     .account-div7 {
         grid-column: 1/2;
         grid-row: 6/7;
+    }
+
+    .owned-item {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        background-color: #27385E;
+        max-width: 70%;
+        margin: 30px 15% 30px 15%;
+    }
+    
+    .sell-button {
+        display: flex;
+        color: #608CEB;
+        background-color: white;
+        grid-column: 2/3;
+        grid-row: 5/6;
+        border-radius: 50px;
+        margin: 20px 50px;
+        align-items: center;
+        padding-left: 15px;
     }
 
     /*basket styles*/
