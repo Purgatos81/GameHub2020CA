@@ -502,7 +502,7 @@ img {
 
 @media only screen and (min-width:600px) and (max-width:990px) {
     body {
-        background-color: aqua;
+        background: linear-gradient(to bottom,  #1c2945 ,#06080e);
     }
     
     #search {
@@ -576,7 +576,7 @@ img {
 
 @media only screen and (min-width:480px) and (max-width:599px) {
     body {
-        background-color: white;
+        background: linear-gradient(to bottom,  #1c2945 ,#06080e);
     }
 
     #search {
