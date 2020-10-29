@@ -453,7 +453,7 @@ img {
 
 /*media querries here, colours are temporary to spot changes. Change back later*/
 
-@media only screen and (min-width:1200px) {
+@media only screen and (min-width:991px) {
     body {
         background: linear-gradient(to bottom,  #1c2945 ,#06080e);
     }
@@ -491,7 +491,7 @@ img {
     }
     }
 
-@media only screen and (min-width:800px) and (max-width:1199px) {
+@media only screen and (min-width:600px) and (max-width:990px) {
     body {
         background-color: aqua;
     }
@@ -510,7 +510,7 @@ img {
 
     }
 
-@media only screen and (min-width:480px) and (max-width:799px) {
+@media only screen and (min-width:480px) and (max-width:599px) {
     body {
         background-color: white;
     }
@@ -525,6 +525,23 @@ img {
 
     #hamburger-menu:checked ~ .top-menu {
         display: block;
+    }
+
+    .buy-button-main {
+        padding: 10px;
+    }
+
+    .games-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: -40px;
+        margin-right: -16.5%;
+    }
+
+    .main-page-fig {
+        background-color: #608CEB;
+        width: 80%;
     }
 
     }
