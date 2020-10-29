@@ -508,6 +508,11 @@ img {
         display: block;
     }
 
+    .main-page-fig {
+        background-color: #608CEB;
+        width: 37%;
+    }
+
     }
 
 @media only screen and (min-width:480px) and (max-width:599px) {
@@ -525,6 +530,10 @@ img {
 
     #hamburger-menu:checked ~ .top-menu {
         display: block;
+    }
+
+    .nav-button {
+        color: #608CEB;
     }
 
     .buy-button-main {
