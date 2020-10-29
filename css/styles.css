@@ -121,8 +121,6 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: -40px;
-    margin-right: -40px;
 }
 
 .main-page-fig {
@@ -603,8 +601,6 @@ img {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-left: -40px;
-        margin-right: -16.5%;
     }
 
     .main-page-fig {
