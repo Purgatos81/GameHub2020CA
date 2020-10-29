@@ -515,6 +515,10 @@ img {
         display: block;
     }
 
+    .nav-button {
+        color: #608CEB;
+    }
+
     .main-page-fig {
         background-color: #608CEB;
         width: 37%;
