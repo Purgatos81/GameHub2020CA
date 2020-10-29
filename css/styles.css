@@ -235,15 +235,15 @@ img {
     grid-row: 4/5;
 }
 .account-div5 {
-    grid-column: 2/3;
+    grid-column: 3/4;
     grid-row: 1/2;
 }
 .account-div6 {
-    grid-column: 2/3;
+    grid-column: 3/4;
     grid-row: 2/3;
 }
 .account-div7 {
-    grid-column: 2/3;
+    grid-column: 3/4;
     grid-row: 4/5;
 }
 
@@ -595,6 +595,13 @@ img {
 
     .nav-button {
         color: #608CEB;
+    }
+
+
+    .main-buy-button {
+        position: absolute;
+        bottom: 20px;
+        right: 10px;
     }
 
     .buy-button-main {
