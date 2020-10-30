@@ -55,6 +55,10 @@ ul {
     display: flex;   
 }
 
+i {
+    color: #1C2945;
+    padding-left: 4px;
+}
     
 #hamburger-menu {
     float: right;
@@ -172,6 +176,7 @@ img {
     display: inline-block;
     background-color: #608CEB;
     padding: 5px;
+    border-radius: 50px;
 }
 
 .new-page-fig {
@@ -223,6 +228,11 @@ img {
 .h1-account {
     text-align: center;
     color: white;
+}
+
+.h2-account {
+    text-align: center;
+    color: #608CEB;
 }
 
 .account-form {
