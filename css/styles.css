@@ -194,14 +194,6 @@ img {
     color: #608CEB;
 }
 
-/*styles to about*/
-
-.about-box {
-    display: grid;
-    color: #608CEB;
-
-}
-
 /* styles to login*/
 
 .form-frame {
@@ -471,6 +463,7 @@ img {
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto;
     margin-bottom: 50px;
+    color: #608CEB;
 }
 
 .about-section {
