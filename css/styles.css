@@ -575,8 +575,16 @@ img {
         display: none;
     }
 
+    .navli-1 {
+        padding-bottom: 20px;
+        padding-right: 20px;
+    }
+
     #hamburger-menu:checked ~ .top-menu {
-        display: block;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        text-decoration: underline;
     }
 
     .nav-button {
