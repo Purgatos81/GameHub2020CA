@@ -558,12 +558,11 @@ img {
     }
     
     .nav-search {
-        display: flex; flex-flow: row; justify-content: center; align-items: center;
         color: #1C2945;
         background-color: #608CEB;
         text-decoration: none;
         text-align: center;
-        padding: 9px 5px 9px 5px;
+        padding: 8px 5px 9px 5px;
         border: 1px solid steelblue;
     }
 
