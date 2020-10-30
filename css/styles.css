@@ -428,11 +428,27 @@ img {
 .game-figs {
     display: grid;
     grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
 }
 
 #game-head {
     grid-column: 1/4;
 
+}
+
+#ui-1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#ui-2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#ui-3 {
+    grid-column: 3/4;
+    grid-row: 2/3;
 }
 
 .asside-fig-text {
@@ -441,12 +457,12 @@ img {
 
 .game-display {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto 4% auto;
     grid-template-rows: auto auto auto auto;
 }
 
 .game-section {
-    grid-column: 1/4;
+    grid-column: 1/3;
     grid-row: 1/4;
 }
 
@@ -534,7 +550,7 @@ img {
         text-decoration: none;
         text-align: center;
         padding: 10px;
-        border: 1px solid gray;
+        border: 1px solid steelblue;
     }
     
     .nav-button:hover {
@@ -548,7 +564,7 @@ img {
         text-decoration: none;
         text-align: center;
         padding: 9px 5px 9px 5px;
-        border: 1px solid gray;
+        border: 1px solid steelblue;
     }
 
     }
