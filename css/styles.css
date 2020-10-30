@@ -54,11 +54,6 @@ ul {
 .account-menu {
     display: flex;   
 }
-
-i {
-    color: #1C2945;
-    padding-left: 4px;
-}
     
 #hamburger-menu {
     float: right;
@@ -157,11 +152,6 @@ img {
     text-align: center;
 }
 
-.sell-button {
-    display: flex;
-    justify-content: center;
-}
-
 .game-h2 {
     color: #1C2945;
 }
@@ -194,13 +184,13 @@ img {
     color: #608CEB;
 }
 
-/* styles to login*/
+/* styles to login and create account*/
 
 .form-frame {
     max-width: fit-content;
     margin: 0 auto;
-    background: black;
-    color: #608CEB;
+    background: #608CEB;
+    color: #1C2945;
 }
 
 
@@ -210,9 +200,22 @@ img {
 }
 
 .login-form {
-    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
     margin-top: 100px;
     margin-bottom: 100px;
+}
+
+#create-account {
+    color: #1C2945;
+    text-decoration: underline;
+}
+
+#continiue-login {
+    color: #1C2945;
+    text-decoration: underline;
 }
 
 /*account styles*/
@@ -279,12 +282,22 @@ img {
     margin: 30px 15% 30px 15%;
 }
 
+.install-button {
+    color: #608CEB;
+    grid-column: 4/5;
+    grid-row: 1/2;
+    text-align: end;
+    padding-right: 20px;
+    text-decoration: underline;
+}
+
 .sell-button {
     color: #608CEB;
     grid-column: 4/5;
     grid-row: 5/6;
     text-align: end;
     padding-right: 20px;
+    text-decoration: underline;
 }
 
 /*cart styles*/
@@ -408,7 +421,8 @@ img {
 /*styles to game page here*/
 
 .game-h1 {
-    color: white;
+    color: #608CEB;
+    text-align: center;
 }
 
 .game-figs {
@@ -422,8 +436,7 @@ img {
 }
 
 .asside-fig-text {
-    color: white;
-    
+    color: #608CEB;
 }
 
 .game-display {
@@ -443,7 +456,7 @@ img {
 }
 
 .article-section {
-    color: white;
+    color: #608CEB;
     grid-column: 1/5;
     grid-row: 4/5;
 }
@@ -494,7 +507,7 @@ img {
     padding: 5px;
 }
 
-/*media querries here, colours are temporary to spot changes. Change back later*/
+/*media queries here*/
 
 @media only screen and (min-width:991px) {
     body {
@@ -504,6 +517,11 @@ img {
         display: none;
     }
     
+    i {
+        color: #1C2945;
+        padding-left: 4px;
+    }
+
     .top-menu {
         display: flex;
         flex-flow: row;
@@ -539,7 +557,11 @@ img {
     body {
         background: linear-gradient(to bottom,  #1c2945 ,#06080e);
     }
-    
+       
+    i {
+        color: #608CEB;
+    }
+
     #search {
         display: none;
     }
@@ -643,10 +665,18 @@ img {
         background: linear-gradient(to bottom,  #1c2945 ,#06080e);
     }
 
+    i {
+        color: #608CEB;
+    }
+
     #search {
         display: none;
     }
-    
+
+    .hamburger-label {
+        color: #608CEB;
+    }
+
     .top-menu {
         display: none;
     }
@@ -687,6 +717,13 @@ img {
         grid-template-columns: auto;
     }
     
+    /*Catalogue styles*/
+
+    .remove_tag {
+        color: #1C2945;
+        padding-left: 5px;
+    }
+
     /*account styles*/
 
     .account-form {
@@ -816,7 +853,7 @@ img {
     }
     
     .article-section {
-        color: white;
+        color: #608CEB;
         grid-column: 1/5;
         grid-row: 5/6;
     }
