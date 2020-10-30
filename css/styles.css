@@ -558,8 +558,13 @@ img {
         background: linear-gradient(to bottom,  #1c2945 ,#06080e);
     }
        
-    i {
+    .searc_icon {
         color: #608CEB;
+    }
+
+    .remove_tag {
+        color: #1C2945;
+        padding-left: 5px;
     }
 
     #search {
@@ -665,8 +670,13 @@ img {
         background: linear-gradient(to bottom,  #1c2945 ,#06080e);
     }
 
-    #i {
+    .searc_icon {
         color: #608CEB;
+    }
+
+    .remove_tag {
+        color: #1C2945;
+        padding-left: 5px;
     }
 
     #search {
@@ -717,12 +727,6 @@ img {
         grid-template-columns: auto;
     }
     
-    /*Catalogue styles*/
-
-    .remove_tag {
-        color: #1C2945;
-        padding-left: 5px;
-    }
 
     /*account styles*/
 
