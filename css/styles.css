@@ -1,10 +1,26 @@
 a:link {
     text-decoration: none;
+    font-weight: bold;
 }
   
-
 a:visited {
     text-decoration: none;
+}
+
+h1 {
+    font-family: Nova Square, Arial, Verdana;
+}
+
+h2 {
+    font-family: Arial, Verdana, sans-serif;
+}
+
+h3 {
+    font-family: Verdana, sans-serif;
+}
+
+p {
+    font-family: verdana, sans-serif;
 }
 
 header {
