@@ -295,7 +295,8 @@ img {
     background-color: #27385E;
     max-width: 70%;
     margin: 0% 15% 20px 15%;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: auto auto auto 100px;
+    grid-row: 50% 50%;
     
 }
 
@@ -306,7 +307,7 @@ img {
 }
 
 .sum-h2 {
-    color: khaki;
+    color: #608CEB;
     grid-column: 4/5;
     text-align: end;
     padding-right: 25px;
@@ -314,16 +315,23 @@ img {
 
 .cont-shop {
     grid-column: 1/2;
+    grid-row: 2/3;
     color: #608CEB;
     padding-left: 25px;
     padding-bottom: 20px;
 }
 
 .conf-shop {
-    color: khaki;
+    color: white;
     grid-column: 4/5;
+    grid-row: 2/3;
     text-align: end;
-    padding-right: 25px;
+    padding-right: 10px;
+    padding-top: 4px;
+    margin: 0 10px 10px 0;
+    background-color: #608CEB;
+    border-radius: 50px;
+    font-family: verdana, sans-serif;
 }
 
 .basket-item {
@@ -476,7 +484,6 @@ img {
     text-align: left;
     margin-top: 20px;
     margin-right: 20px;
-    #border: solid steelblue 1px;
     padding: 5px;
 }
 
