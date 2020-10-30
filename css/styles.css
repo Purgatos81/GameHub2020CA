@@ -599,7 +599,7 @@ img {
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
-        text-decoration: underline;
+        text-decoration: underline #608CEB;
     }
 
     .nav-button {
