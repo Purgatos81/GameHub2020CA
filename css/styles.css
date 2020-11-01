@@ -329,7 +329,8 @@ img {
     color: #608CEB;
     grid-column: 4/5;
     text-align: end;
-    padding-right: 25px;
+    padding-right: 10px;
+    padding-top: 10px;
 }
 
 .cont-shop {
