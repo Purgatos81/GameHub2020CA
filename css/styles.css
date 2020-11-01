@@ -41,10 +41,15 @@ ul {
     margin-right: 18px;
 }
 
+li {
+    list-style-type: none;
+}
+
 .header-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 10px;
 }
 
 .hamburger-label {
