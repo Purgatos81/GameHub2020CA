@@ -300,6 +300,10 @@ img {
     text-decoration: underline;
 }
 
+.sell-game {
+    color: #608CEB;
+}
+
 /*cart styles*/
 
 .shopping-h1 {
@@ -675,16 +679,17 @@ img {
         margin: 30px 15% 30px 15%;
     }
     
+    .install-button {
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+
     .sell-button {
-        display: flex;
         color: #608CEB;
-        background-color: white;
         grid-column: 2/3;
         grid-row: 5/6;
-        border-radius: 50px;
-        margin: 0px 60px;
-        align-items: center;
         padding-left: 15px;
+        text-align: end;
     }
 
     /*About styles*/
@@ -823,16 +828,17 @@ img {
         margin: 30px 15% 30px 15%;
     }
     
+    .install-button {
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+
     .sell-button {
-        display: flex;
         color: #608CEB;
-        background-color: white;
         grid-column: 2/3;
         grid-row: 5/6;
-        border-radius: 50px;
-        margin: 20px 50px;
-        align-items: center;
         padding-left: 15px;
+        text-align: end;
     }
 
     /*basket styles*/
