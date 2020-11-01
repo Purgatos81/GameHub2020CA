@@ -35,12 +35,6 @@ header {
     border: solid steelblue 1px;
 }
 
-ul {
-    list-style-type: none;
-    margin-left: -25px;
-    margin-right: 18px;
-}
-
 li {
     list-style-type: none;
 }
